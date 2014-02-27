@@ -1,3 +1,28 @@
+## pr2_mechanism (hydro) - 1.8.11-0
+
+User `hendrix@vash` released the packages in the `pr2_mechanism` repository into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro pr2_mechanism` on `Thu, 27 Feb 2014 08:38:48 -0000`
+
+These packages were released:
+- `pr2_controller_interface`
+- `pr2_controller_manager`
+- `pr2_hardware_interface`
+- `pr2_mechanism`
+- `pr2_mechanism_diagnostics`
+- `pr2_mechanism_model`
+
+Version of package(s) in repository `pr2_mechanism`:
+- rosdistro version: `1.8.9-0`
+- old version: `1.8.9-0`
+- new version: `1.8.11-0`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.26`
+
+
 ## pr2_mechanism - 1.8.9-0
 
 User `ahendrix@bof` released the packages in the `pr2_mechanism` repository by running `/usr/bin/bloom-release -t hydro -r hydro pr2_mechanism` on `Tue, 10 Sep 2013 18:39:44 -0000`
