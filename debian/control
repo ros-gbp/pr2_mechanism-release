@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-mechanism-diagnostics
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-angles, ros-hydro-catkin, ros-hydro-diagnostic-msgs, ros-hydro-diagnostic-updater, ros-hydro-pr2-mechanism-model, ros-hydro-pr2-mechanism-msgs, ros-hydro-roscpp, ros-hydro-rostest, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_diagnostics
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-mechanism-diagnostics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-angles, ros-hydro-diagnostic-msgs, ros-hydro-diagnostic-updater, ros-hydro-pr2-mechanism-model, ros-hydro-pr2-mechanism-msgs, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-urdf
+Description: The `pr2_mechanism_diagnostics` node subscribes to `mechanism_statistics` and publishes diagnostics data for joints and controllers on `/diagnostics`.
